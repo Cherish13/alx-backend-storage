@@ -3,7 +3,7 @@
 '''
 import requests
 import redis
-import time
+from typing import Callable
 from functools import wraps
 
 # Initialize Redis client
